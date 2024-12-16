@@ -1,0 +1,28 @@
+.tabs {
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+.tabs div {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.tabs div:hover {
+    background-color: #bbb;
+}
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+.active-tab {
+    background-color: rgb(118, 167, 166) !important;
+}
+.active-content {
+    display: block;
+}
